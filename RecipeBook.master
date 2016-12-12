@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="RecipeBook.master.cs" Inherits="RecipeBook" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="App_Themes/RecipeBookTheme/MasterStyleSheet.css" type="text/css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url('BackgroundImage.jpg'); background-attachment:fixed;">
+    <asp:Image src="RecipeBookLogo.gif" runat="server" />
+        <br />
+        <div id="navigation">
+        <asp:HyperLink runat="server" href="Home.aspx">Home</asp:HyperLink> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <asp:HyperLink runat="server" href="Recipes.aspx">Recipes</asp:HyperLink> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <asp:HyperLink runat="server" href="AddRecipes.aspx">Add Recipes</asp:HyperLink> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <asp:HyperLink runat="server" href="Search.aspx">Search</asp:HyperLink>
+            </div>
+        <div id="ContentPlaceHolder" style="height:1200px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

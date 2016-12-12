@@ -1,0 +1,39 @@
+﻿body {
+    background-image:url("BackgroundImage.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    text-align:center;
+}
+a{
+    color:black;
+    font-size:45px;
+    text-decoration:none;
+    transition-duration:0.3s;
+        font-family:'Edwardian Script ITC';
+}
+a:hover{
+    color:antiquewhite;
+    background-color:darkgray;
+    font-size:55px;
+    transition-duration:0.3s;
+    font-family:'Edwardian Script ITC';
+    
+}
+#ContentPlaceHolder{
+    margin-left:auto;
+    margin-right:auto;
+    width:975px;
+    background-color:darkgray;
+    opacity:0.8;
+}
+#navigation{
+    margin-left:auto;
+    margin-right:auto;
+    width:975px;
+    transition-duration:0.3s;
+}
+#navigation:hover{
+    background-color:darkgray;
+    opacity:0.8;
+    transition-duration:0.3s;
+}
